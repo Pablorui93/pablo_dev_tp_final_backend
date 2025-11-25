@@ -33,15 +33,6 @@ app.use('/api/test', (req, res) => {
     })
 })
 
-/* mailTransporter.sendMail(
-    {
-        from: ENVIRONMENT.GMAIL_USER, //Desde quien
-        to:  'mati.dev.gimenez@gmail.com', //Hacia adonde enviar
-        subject: 'Mail de prueba', //asunto
-        html: `<h1>Hola desde node js</h1>` //Body del mail
-    }
-) */
-
 
 app.listen(
     ENVIRONMENT.PORT || 8080,
